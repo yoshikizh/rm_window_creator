@@ -29,29 +29,29 @@ end
 actor 的配置:
 
 ```ruby
-    config.hack         :face,      :start => [0,0],:space=>[20,20],:size=>96
-    config.hack         :character, :start => [0,0],:space=>[20,20]
-    config.hack         :name,      :start => [0,0],:space=>[20,20],:color=>Color.new(255,128,128,255),:fontsize=>18
-    config.hack         :level,     :start => [0,0],:space=>[20,20],:color=>Color.new(255,128,128,255),:fontsize=>16,:sub=>"等级"
-    config.hack         :nickname,  :start => [0,0],:space=>[20,20]
-    config.hack         :hp,        :start => [0,0],:space=>[20,20],:color=>Color.new(128,200,192,255)
-    config.hack         :mp,        :start => [0,0],:space=>[20,20],:color=>Color.new(0,255,0,255)
-    config.hack         :tp,        :start => [0,0],:space=>[20,20],:color=>Color.new(0,0,255,255)
-    config.hack         :hp_gauge,  :start => [0,0],:space=>[20,20]
-    config.hack         :mp_gauge,  :start => [0,0],:space=>[20,20]
-    config.hack         :tp_gauge,  :start => [0,0],:space=>[20,20]
+config.hack         :face,      :start => [0,0],:space=>[20,20],:size=>96
+config.hack         :character, :start => [0,0],:space=>[20,20]
+config.hack         :name,      :start => [0,0],:space=>[20,20],:color=>Color.new(255,128,128,255),:fontsize=>18
+config.hack         :level,     :start => [0,0],:space=>[20,20],:color=>Color.new(255,128,128,255),:fontsize=>16,:sub=>"等级"
+config.hack         :nickname,  :start => [0,0],:space=>[20,20]
+config.hack         :hp,        :start => [0,0],:space=>[20,20],:color=>Color.new(128,200,192,255)
+config.hack         :mp,        :start => [0,0],:space=>[20,20],:color=>Color.new(0,255,0,255)
+config.hack         :tp,        :start => [0,0],:space=>[20,20],:color=>Color.new(0,0,255,255)
+config.hack         :hp_gauge,  :start => [0,0],:space=>[20,20]
+config.hack         :mp_gauge,  :start => [0,0],:space=>[20,20]
+config.hack         :tp_gauge,  :start => [0,0],:space=>[20,20]
 ```
 
 item , equipment , armor 等的配置:
 
 ```ruby
-    config.hack         :icon,      :start => [0,0],:space=>[20,20]
-    config.hack         :desc,      :start => [0,0],:space=>[20,20]
-    config.hack         :price,     :start => [0,0],:space=>[20,20]
-    config.hack         :gold,      :pos=>[300,300]
-    config.hack         :item_rect, :col_max => 1,:spacing=>32,:item_max=>4,:item_height=>32,:item_width=>32
-    config.hack         :background,:btm=>"system/xxx.jpg",:x=>0,:y=>0
-    config.hack         :handler,   :ok => method(:command_ok),:cancel=> method(:command_cancel)
+config.hack         :icon,      :start => [0,0],:space=>[20,20]
+config.hack         :desc,      :start => [0,0],:space=>[20,20]
+config.hack         :price,     :start => [0,0],:space=>[20,20]
+config.hack         :gold,      :pos=>[300,300]
+config.hack         :item_rect, :col_max => 1,:spacing=>32,:item_max=>4,:item_height=>32,:item_width=>32
+config.hack         :background,:btm=>"system/xxx.jpg",:x=>0,:y=>0
+config.hack         :handler,   :ok => method(:command_ok),:cancel=> method(:command_cancel)
 ```
  
 ## Contributing
